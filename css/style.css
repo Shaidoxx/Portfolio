@@ -1,0 +1,384 @@
+
+
+/* TITLE CONTACT BIENVENUE */ 
+#Bienvenue  {
+    font-family: 'Raleway';
+    text-transform:uppercase;
+}
+
+#Contact  {
+    font-family: 'Raleway';
+    text-transform:uppercase;
+}
+
+#Projets  {
+    font-family: 'Raleway';
+    text-transform:uppercase;
+}
+
+#Production  {
+    margin-top: 40px;
+    font-family: 'Raleway';
+    text-transform:uppercase;
+}
+
+
+#Production:before {
+    content: open-quote;
+    color: grey;
+   }
+
+#Production:after {
+    content: close-quote;
+    color: grey;
+   }
+
+
+#Bienvenue:before {
+    content: open-quote;
+    color: grey;
+   }
+
+#Bienvenue:after {
+    content: close-quote;
+    color: grey;
+   }
+
+
+#Projets:before {
+    content: open-quote;
+    color: grey;
+   }
+
+#Projets:after {
+    content: close-quote;
+    color: grey;
+   }
+
+
+
+#Contact:before {
+    content: open-quote;
+    color: grey;
+   }
+
+#Contact:after {
+    content: close-quote;
+    color: grey;
+   }
+
+
+#Bienvenue::before  {
+    font-family: 'Raleway';
+    
+}
+
+#text2 {
+    margin-bottom: 50px;
+    padding-bottom: 35px;
+}
+
+/* BODY (TEXT + TITLE) */
+
+
+body {
+    background-color: #F4F7F6   ;
+    font-family: 'Raleway';
+    text-align: center;
+}
+
+
+
+h3 {
+    font-size: 1,5em;
+    text-align: center
+    
+}
+
+p span{
+    font-size: 1,5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.title {
+    font-family: 'Tealand';
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-align: center;
+    color: #1D1D1D; 
+    text-decoration:underline;
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    
+}
+
+
+#line {
+    color: black;
+}
+
+
+
+/* MENU NAV */
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: white;
+    box-shadow: 0px 3px 1px -1px BLACK ;
+    text-decoration : none;
+    padding: 15px;
+    color: black;
+
+}   
+
+nav ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+nav li{
+    float: left;
+    text-decoration: none;
+    padding-right: 1em;
+    text-decoration : none;
+    font-size: 1.1em;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway';
+    font-size: 1.1em;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+nav a {
+    transition: font-weight .4s ease-in-out;
+    
+    &:hover,
+    &.be-bold {
+        font-weight: bold;
+    
+}
+}
+
+
+
+
+
+
+footer {
+    font-family: 'Poppins';
+    background-color: #1D1D1D;
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 1px;
+    padding: 15px;  
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 10px;
+}
+
+
+body a {
+    text-decoration: none;
+
+}
+
+body #mail {
+    text-decoration: none;
+    color: black;
+    border-top: 1px;
+    box-sizing: content-box;
+    border: solid black 0.5px;
+    transition: font-weight .4s ease-in-out;
+    
+    &:hover,
+    &.be-bold {
+        font-weight: bold;
+    
+}
+
+}
+
+body #mail:hover {
+    transition: 1s;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+/* PROJETS */
+
+
+
+
+#Projet {
+    width: 80%;
+    margin: 30px;
+}
+
+#img {
+    min-width: 400px;
+    min-height: 266px;
+    max-width: 400px;
+    max-height: 266px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+/* IMAGE 1 */
+
+
+.contener {
+    display: inline-block;
+    overflow: hidden;
+    flex-wrap: wrap;
+    border-spacing: 200px;
+
+}
+
+
+
+
+.Projet1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.Projet1:hover {
+    box-shadow: 0 14px 60px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Projet2 {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    display: inline-block;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.Projet2:hover {
+    box-shadow: 0 14px 60px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.Projet3 {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+}
+
+.Projet3:hover {
+    box-shadow: 0 14px 60px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#Projet1 {
+    background-color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    
+}
+
+#Projet2 {
+    background-color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+#Projet3 {
+    background-color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    
+}
+
+
+
+header{
+    font-family: 10;
+
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: inset;
+}
+
+
+
+p span .dateprojet {
+   
+    font-size: 0.7em;
+}
+
+/* POLICES */
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url(../src/LuckiestGuy-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../src/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../src/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Mario';
+    src: url(../src/SuperMario256.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'Tealand';
+    src: url(../src/BERNARD\ WACKER.otf);
+}
+
+
+
+#video {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+

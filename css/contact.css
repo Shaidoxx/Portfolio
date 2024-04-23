@@ -1,0 +1,118 @@
+
+
+#info {
+    color: black;
+}
+
+
+
+.divider
+{
+
+    height: 2px;
+    width: 100px;
+}
+
+h2
+{
+    
+    text-align:center;
+    color: black;
+}
+
+
+
+#titre:before {
+    quotes: "«" "»";
+    content: open-quote;
+    color: grey;
+   }
+
+#titre {
+    text-transform: uppercase;
+}
+
+#titre:after {
+    quotes: "«" "»";
+    content: close-quote;
+    color: grey;
+   }
+
+form
+{
+    background-color: black;
+    border-radius: 5px;
+}
+
+.contact-form {
+    max-width: auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.form-ligne {
+    display: flex;
+    justify-content: space-between;
+}
+  
+.form-groupe {
+    flex: 1;
+    margin-right: 10px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+  
+button {
+    background-color: #1D1D1D;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 95%;
+    transition: all 0.5s ease-in;
+} 
+
+button:hover {
+    background-color: white;
+    color: #1D1D1D;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 50%;
+    transition: all 0.5s ease-out;
+
+} 
+
+
+
+
+nav a:hover {
+    color: black;
+}
+
+
+
+.comments
+{
+    color: red;
+}
+
+
+#msgsend {
+    color:rgb(231, 152, 49);
+}

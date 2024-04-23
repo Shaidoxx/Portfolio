@@ -1,0 +1,365 @@
+
+
+/* TITRE */
+
+
+#titre {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: 'Poppins';
+    color: black
+}
+
+#bienvenue {
+    margin-left: 20%;
+    font-family: 'Poppins';
+    color: black;
+}
+
+#bienvenue strong {
+    color: #ed5353;
+}
+
+.trait {
+    background-color: #9c8a8a;
+    margin-left: 20%;
+    height: 2px;
+    width: 100px;
+}
+
+
+.traitdeco {
+    background-color: #ed5353;
+    margin-left: 20%;
+    height: 2px;
+    width: 100px;
+}
+
+
+#contact {
+    color: black;
+    margin-left: 20%;
+    font-family: 'Poppins';
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+    
+
+    
+}
+
+
+/* ABOUT ME */
+
+#avatar {
+    position:static;
+    margin-left: 20%;
+    margin-top:5%;
+}
+#aboutme {
+    margin-top: 10%;
+    margin-left: 60%;
+    font-family: 'Poppins';
+
+}
+
+#parame {
+    margin-left: 40%;
+    font-family: 'Poppins';
+}
+
+#parame span {
+    color: #ed5353;
+    text-decoration: bold;
+}
+
+
+section {
+    flex-wrap: wrap;
+}
+
+
+/* MA FORMATION */
+
+#formationtitle {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: 'Poppins';
+}
+
+
+#formation {
+    font-family: 'Poppins';
+    width: 100%; /* Ajouté pour donner une largeur à #formation */
+}
+
+
+
+.box-form {
+    margin-top: 5%;
+    margin-left: 20%;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding: 30px; /* Increase the padding */
+    border-radius: 5px;
+    width: 50%; /* The box will take up 50% of its parent container's width */
+    min-height: 200px; /* Set a minimum height */
+    font-family: 'Poppins';
+}
+
+.box-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.box-subtitle {
+    font-size: 1.2em;
+
+    margin-bottom: 10px;
+}
+.box-date {
+    border-radius: 20px;
+    background-color: #ff0000; /* Rouge foncé */
+    color: #ffffff; /* Texte blanc */
+    padding: 5px;
+    font-size: 0.8em;
+    width: 80px; /* Largeur fixe */
+    margin-bottom: 10px;
+    float: left; /* Déplace le bouton vers la gauche */
+}
+
+.check-button {
+    border-radius: 20px;
+    background-color: #7dd77d; /* Vert */
+    color: #ffffff; /* Texte blanc */
+    padding: 5px;
+    font-size: 0.5em;
+    width: 80px; /* Largeur fixe */
+    margin-bottom: 10px;
+   
+}
+
+.load-button {
+    border-radius: 20px;
+    background-color: #d2d77d; /* Vert */
+    color: #ffffff; /* Texte blanc */
+    padding: 5px;
+    font-size: 0.5em;
+    width: 80px; /* Largeur fixe */
+    margin-bottom: 10px;
+   
+}
+
+
+.box-description {
+    font-size: 1em;
+    color:rgb(166, 163, 163);
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.box-orientation {
+    font-size: 1em;
+}
+/* MES COMPETENCES */
+
+#projetstitle {
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: 'Poppins';
+}
+
+#textexpli {
+    margin-left: 20%;
+    font-family: 'Poppins';
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around; /* ajoute de l'espace autour de chaque boîte */
+    flex-wrap: wrap; /* permet aux boîtes de passer à la ligne suivante si nécessaire */
+}
+
+.box {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* ajoute de l'ombre */
+}
+
+
+.box img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%; /* rend l'image ronde */
+    transition: border 0.5s ease; /* transition douce lors du survol */
+}
+
+.box img:hover #nomlang{
+    border: 5px solid white; /* ajoute une bordure blanche lors du survol */
+}
+
+.box:hover {
+    background-color: #ed5353; /* change la couleur de fond lors du survol */
+}
+
+#nomlang {
+    font-family: 'Poppins';
+    color: black;
+    font-size: 1em;
+    text-decoration: none;
+
+}
+
+/* PROJETS */
+
+
+#carousel {
+    position: relative;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+#carousel .slide {
+    display: none;
+    width: 100%;
+    position: relative; /* Ajouté pour positionner le titre par rapport à la diapositive */
+}
+
+#carousel .slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: block; /* Ajouté pour supprimer l'espace sous l'image */
+}
+
+#carousel .slide.active {
+    display: block;
+}
+
+#carousel a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-size: 2em;
+    color: #ed5353;
+}
+
+#carousel a:hover {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-decoration: none;
+    font-size: 3em;
+    color: #ed5353;
+}
+
+#carousel .slide .title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 0; /* Ajouté pour centrer le texte verticalement */
+    font-family: 'Poppins';
+}
+
+#carousel #prev {
+    left: 10px;
+}
+
+#carousel #next {
+    right: 10px;
+}
+
+/* FOOTER */
+
+
+.endtrait  {
+    background-color: #9c8a8a;
+    height: 2px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+}
+footer {
+    padding-top: 2em;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.fa-linkedin {
+    color: rgb(30, 48, 80);
+}
+
+#linkedin {
+    text-decoration: none;
+    color: rgb(30, 48, 80);
+    font-family: 'Poppins';
+}
+
+
+.fa-square-instagram {
+    color: #833ab4;
+
+}
+
+#instagram {
+    text-decoration: none;
+    font-family: 'Poppins';
+    color: black;
+}
+
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url(../src/LuckiestGuy-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../src/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../src/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Mario';
+    src: url(../src/SuperMario256.ttf);
+}
+
+
+
+@font-face {
+    font-family: 'Tealand';
+    src: url(../src/BERNARD\ WACKER.otf);
+}
+
+
+@font-face {
+    font-family: 'Genuine';
+    src: url(../src/Gemosh\ Headline-Regular.otf);
+}
+
