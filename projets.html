@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/accueil.css">
+    <title>BTS SIO - Portfolio | Mathieu Vallejo</title>
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="font-awesome/css/all.min.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/projet.css">
+</head>
+
+
+
+<body>
+    <div>
+        <a href="index.html" class="btn-1"><span>RETOUR</span></a>
+    </div>
+   <!-- -->
+
+<div class="sidebar">
+    <a href="#projet1">Projet Mouse Repertories</a>
+    <a href="#projet2">Projet New World</a>
+    <!-- Ajoutez plus de liens si nécessaire -->
+</div>
+
+<!-- PROJET 1 -->
+<div id="projet1"></div>
+    <h2 class="titreprojets" id="#projet1"> Premier Projet | Mouse Repertories 🧀 </h2>
+    <div class="traitdeco"></div>  
+    <h3 class="soustitreprojets"> Description </h3>
+    <p class="descprojets"> En Décembre 2023 de première année, nous avons pu réaliser un projet en équipe de 4. Notre objectif était de créer un site sur un thème choisi, <para>(en l'occurence du fromage)</para>, et de réaliser ce dernier en utilisant les langages <strong>HTML, CSS, PHP</strong>.</p>
+    <p class="descprojets"> Notre site, avec une prise en main très rapide, proposait premièrement un <strong>catalogue de fromage complet</strong>, ainsi qu'une <strong>description complète pour chaque fromage</strong>. Pour ce qui est du système d'achat nous étions limiter à la mise en panier.</p>
+    
+    <h3 class="soustitreprojets"> Rendu </h3>
+    <div class="carousel">
+        <img src="projets/Projets_MS_1.png" alt="Mouse 1" class="carousel-image active">
+        <img src="projets/Projet_MS_2.png" alt="Mouse 2" class="carousel-image">
+        <img src="projets/Projet_MS_4.png" alt="Mouse 4" class="carousel-image">
+        <img src="projets/Projet_MS_3.png" alt="Mouse 3" class="carousel-image">
+
+        <button class="carousel-button carousel-button-prev">&#10094;</button>
+        <button class="carousel-button carousel-button-next">&#10095;</button>
+    </div>
+    <p class="descprojets"> Nous avons donc également crée une <strong>Base de donnée</strong> permettant de stocker les informations Clients <para>(Id, Nom, Mail, MDP)</para>. Bien entendu, nous avons mis en place de la sécurité en <strong>chiffrant les mots de passes</strong> en <para>PHP</para>, et en utilisant des <strong>requêtes préparées</strong> afin d'éviter les Injections SQL.</p>
+    <h3 class="soustitreprojets"> Schéma MCD </h3>
+    <img src="projets/Projet_MS_MCD.png" alt="Mouse MCD" class="imgprojets">
+    <p class="descprojets"> Les quelques autres données utilisées vis à vis des Fromages :</p>
+    <ul class="fromage-list">
+        <li>Fromage : <strong>ID, Nom, Prix, Region, Fournisseur, nbVendu, description</strong></li>
+        <li>Relié à un fournisseur : <strong>idFournisseur, nom, numTel, mail</strong></li>
+    </ul>
+    <h3 class="soustitreprojets"> Organisations </h3>
+    <p class="descprojets"> Étant donné que ce projet était à faire en Équipe, nous avons eu besoin de nous organiser sur la répartition des tâches. Nous avons donc utiliser <strong>Trello</strong>.</p>
+    <img src="projets/Projet_MS_Trello.png" alt="Mouse MCD" class="imgprojets">
+
+    <h3 class="soustitreprojets"> Ce que j'ai apprit </h3>
+
+    <div class="container">
+        <div class="box">
+            <img src="Images/icon_group.png" alt="Group">
+            <div class="traitdeco"></div>
+            <p id="nomlang">Organisations</p>
+        </div>
+        <div class="box">
+            <img src="Images/icon_orga.png" alt="Group">
+            <div class="traitdeco"></div>
+            <p id="nomlang">Travail en Groupe</p>
+        </div>
+        <div class="box">
+            <img src="Images/icon_données.png" alt="Group">
+            <div class="traitdeco"></div>
+            <p id="nomlang">Gestion de données</p>
+        </div>
+        <div class="box">
+            <img src="Images/icon_js.png" alt="Group">
+            <div class="traitdeco"></div>
+            <p id="nomlang">JavaScript</p>
+        </div>
+
+    </div>
+
+
+<!-- PROJET 2-->
+<div id="projet2"></div>
+<h2 class="titreprojets" > Second Projet | New World 🕹️ </h2>
+<div class="traitdeco"></div>  
+<h3 class="soustitreprojets"> Description </h3>
+<p class="descprojets"> Pour ce projet, je l'ai réalisé totalement seul, j'avais pour but de créer un site, pour un serveur de jeu en ligne.</p>
+<p class="descprojets"> Pour ce projet les langages utilisés étaient du <strong>HTML, CSS, PHP, JavaScript.</strong></p>
+
+<h3 class="soustitreprojets"> Rendu </h3>
+<div class="carousel">
+    <img src="projets/Site_Jeu_Accueil.png" alt="NW 1" class="carousel-image active">
+    <img src="projets/Site_Jeu_Accueil2.png" alt="NW 2" class="carousel-image">
+    <img src="projets/Site_Jeu_Page2.png" alt="NW 4" class="carousel-image">
+    <img src="projets/Projet_NW_1.png" alt="NW 5" class="carousel-image">
+    <img src="projets/Projet_NW_,2.png" alt="NW 6" class="carousel-image">
+    <img src="projets/Projet_NW_3.png" alt="NW 7" class="carousel-image">
+
+
+    <button class="carousel-button carousel-button-prev">&#10094;</button>
+    <button class="carousel-button carousel-button-next">&#10095;</button>
+</div>
+<p class="descprojets"> Le but initial de ce projet était de designer un site respectant la mise en forme des sites de jeu similaires, tout en y ajoutant du nouveau. Les informations présentes sur le site étaient destinées à aider les utilisateurs, également ils pouvaient y trouver des informations relatives à la <para>connexion au serveur (un Script JS permettait de rejoindre directement le serveur depuis le site), rejoindre le staff, ...</para> . Également donc un site pour l'équipe de modération a été mit en place en parallèle pour une meilleure organisation. Les membres de l'équipe pouvaient rédiger des rapports de problèmes directement sur le site.</p>
+<h3 class="soustitreprojets"> Base de donnée </h3>
+<img src="projets/Projet_NW_BDD1.png" alt="NW BDD" class="imgprojets">
+<p class="descprojets"> La base de donnée a été réalisé afin de stocker les informations relatives à des rapports crée par rapport à des bugs trouvés sur le serveur. La suite logique était de créer un système permettant de supprimer un rapport directement depuis le site, ce qui a pu être fait, ce dernier est supprimé à l'aide de l'ID.</p>
+
+<h3 class="soustitreprojets"> Ce que j'ai apprit </h3>
+
+<div class="container">
+    <div class="box">
+        <img src="Images/php.png" alt="Group">
+        <div class="traitdeco"></div>
+        <p id="nomlang">PHP</p>
+    </div>
+    <div class="box">
+        <img src="Images/icon_travail.png" alt="Group">
+        <div class="traitdeco"></div>
+        <p id="nomlang">Travail en Autonomie</p>
+    </div>
+    <div class="box">
+        <img src="Images/icon_cahiercharge.png" alt="Group">
+        <div class="traitdeco"></div>
+        <p id="nomlang">Respect cahier des charges</p>
+    </div>
+
+
+</div>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800, // Vitesse de défilement en millisecondes
+        offset: 0, // Distance en pixels à décaler le défilement
+    });
+</script>
+    <script>
+        function createCarousel(carousel) {
+            const images = carousel.querySelectorAll('.carousel-image');
+            let currentIndex = 0;
+        
+            function updateCarousel() {
+                images.forEach((img, index) => {
+                    img.classList.remove('active');
+                    if (index === currentIndex) {
+                        img.classList.add('active');
+                    }
+                });
+            }
+        
+            carousel.querySelector('.carousel-button-prev').addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+                updateCarousel();
+            });
+        
+            carousel.querySelector('.carousel-button-next').addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % images.length;
+                updateCarousel();
+            });
+        
+            updateCarousel();
+        }
+        
+        document.querySelectorAll('.carousel').forEach(createCarousel);
+    </script>
+</body>
+
+
+
+

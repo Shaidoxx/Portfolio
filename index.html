@@ -14,20 +14,33 @@
 
 
 <body>
+    
+    
+<div class="sidebar">
+    <a href="#apropos">🙎 A propos</a>
+    <a href="#formation">📖 Formation</a>
+    <a href="#formation">📉 Compétences</a>
+    <a href="#projets">🛠️ Projets</a>
+    <a href="#outils">💻 Outils</a>
+    <a href="#contacts">📞 Contacts</a>
+    <!-- Ajoutez plus de liens si nécessaire -->
+</div>
+
+
+<div class="head"> 
+    
     <h1 id="titre"> Portfolio </h1>
     <h2 id="bienvenue"> Bienvenue, je suis <strong> Mathieu Vallejo </strong>.</h2>
-    <div class="trait"></div>
-
-    <p><a href="" id="contact"> Contactez moi</a></p>
-    <p><a href="" id="contact">▶️ +33 6 38 46 65 36</a></p>
-    <p><a href="mailto:mathieu.vallejopro@gmail.com" id="contact">▶️ mathieu.vallejopro@gmail.com</a></p>
+    <div class="traitt"></div>
     
+</div>
 
-
-    <div class="trait"></div>
+   
 
     <section>
+        <div id="apropos"></div>
         <h2 id="aboutme"> Qui suis-je ? 👨‍💻</h2>
+        <div class="traitdeco"></div>
         <p id="parame">Je suis actuellement un Étudiant en première année de <span>BTS SIO</span> Service Informatique aux
             Organisations  en option <span>SLAM</span> (Solutions Logicielles et Applications Métiers). Tous les projets réalisés au cours des deux années seront
             présentés ici.</p>
@@ -41,7 +54,7 @@
 
     
 
-
+        <div id="formation"></div>
     <h2 id="formationtitle"> Ma formation 📖 </h2>
     <div class="traitdeco"></div>
         <div class="box-form">
@@ -66,7 +79,7 @@
             <p class="box-description"> | BTS Services Informatique aux Organisations</p>
             <p class="box-orientation">Ce BTS est parfait, il est en pleins dans la programmation et tout ce que je peux aimer.</p>
         </div>
-
+        <div id="compétences"></div>
 <div id="compétences"> 
     <h2 id="projetstitle"> Mes compétences 📉</h2>
     <div class="traitdeco"></div>
@@ -99,91 +112,85 @@
 
 </div>
 
-
+<div id="projets"></div>
 <div id="projets"> 
     <h2 id="projetstitle"> Mes projets 🛠️</h2>
     <div class="traitdeco"></div>   
     <p id="textexpli"> Mes projets, j'ai pu en réaliser plusieurs, que ce soit durant ma formation, ou bien de moi même, vous pouvez trouver quelques images ci-dessous.</p>
-    <div id="carousel">
-        <div class="slides active">
-            <div class="slide">
-                <img src="projets/Site_SIO_ACCUEIL.png" alt="Site SIO">
-                <p class="title">SITE SIO | Accueil</p>
+    <div class="projet-container"> 
+        <div class="project-box">
+            <h2 class="project-title"> SITE MOUSE REPERTORIES </h2>
+            <p class="project-date">DECEMBRE 2024</p>
+            <div class="project-image" onclick="openModal(projets/MS_1.png)">
+                <img src="Images/MS_Design.png" alt="MS Site" data-modal-src="Images/MS_Design.png" onclick="openModal(this)">
+                
             </div>
-            <div class="slide active">
-                <img src="projets/Site_SIO_Page1.png" alt="Site SIO">
-                <p class="title">Site SIO | Page n°1</p>
+            <p class="project-description">Création d'un site de Fromagerie<br> (Projet de ma Formation)</p>
+            <p class="project-code">Langages : HTML, CSS, PHP</p>
+        </div>
+        <div class="project-box">
+            <h2 class="project-title"> SITE NEW WORLD </h2>
+            <p class="project-date">MARS-AVRIL 2024</p>
+            <div class="project-image" onclick="openModal(projets/Site_Jeu_Accueil.png)">
+                <img src="Images/NW_Design.png" alt="Site NW" data-modal-src="Images/NW_Design.png" onclick="openModal(this)">
             </div>
-            <div class="slide active">
-                <img src="projets/Site_SIO_Page2.png" alt="Site SIO">
-                <p class="title">Site SIO | Page n°2</p>
+            <p class="project-description">Création d'un site internet un serveur de jeu en ligne</p>
+            <p class="project-code">Langages : HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project-box">
+            <h2 class="project-title"> SITE SIO </h2>
+            <p class="project-date">MARS 2024</p>
+            <div class="project-image" onclick="openModal(tprojets/Site_SIO_ACCUEIL.png)">
+                <img src="Images/SIO_Design.png" alt="Site SIO" data-modal-src="Images/SIO_Design.png" onclick="openModal(this)">
             </div>
-            <div class="slide">
-                <img src="projets/Site_Jeu_Accueil.png" alt="Site Jeu">
-                <p class="title">SITE Jeu | Accueil</p>
-            </div>
-            <div class="slide active">
-                <img src="projets/Site_Jeu_Accueil2.png" alt="Site Jeu">
-                <p class="title">Site Jeu | Page n°1</p>
-            </div>
-            <div class="slide active">
-                <img src="projets/Site_Jeu_Page2.png" alt="Site Jeu">
-                <p class="title">Site Jeu | Page n°2</p>
-            </div>
-            <div class="slide active">
-                <img src="projets/Portfolio.png" alt="Site Jeu">
-                <p class="title">Ancien Portfolio</p>
-            </div>
-            <div class="slide active">
-                <img src="projets/MS_1.png" alt="Site Fromage">
-                <p class="title">Mouse Repertories | Accueil</p>
-            </div>
-            <div class="slide active">
-                <img src="projets/MS_2.png" alt="Site Fromage">
-                <p class="title">Mouse Repertories | Catalogue</p>
-            </div>
-            <div class="slide active">
-                <img src="projets/MS_3.png" alt="Site Fromage">
-                <p class="title">Mouse Repertories | Fromage</p>
-            </div>
-            <div class="slide active">
-                <img src="projets/MS_4.png" alt="Site Fromage">
-                <p class="title">Mouse Repertories | Page de Connexion</p>
-            </div>
+            <p class="project-description">Création d'un site internet pour ma promotion</p>
+            <p class="project-code">Langages : HTML, CSS</p>
+        </div>
+
+        
+        
+        
+    </div>
+
+    <a href="projets.html" id="projectLink" class="btn">Accéder aux projets</a>
+    
+    
+    <!-- Repeat this structure for each project -->
  
             <!-- Ajoutez plus de diapositives ici -->
         </div>
-        <a href="#" id="prev">&#10094;</a>
-        <a href="#" id="next">&#10095;</a>
+        <!--<a href="#" id="prev">&#10094;</a>
+        <a href="#" id="next">&#10095;</a>-->
     </div>
+
+    <!-- HTML -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+        <a href="projets.html" id="projectLink" class="btn">Accéder au projet</a>
+    </div>
+
 <script>
-    var slides = Array.from(document.querySelectorAll('#carousel .slide'));
-    var currentSlide = 0;
-
-    function updateSlides() {
-        slides.forEach((slide, index) => {
-            slide.style.display = 'none'; // cache toutes les diapositives
-            slide.classList.remove('active');
-        });
-        slides[currentSlide].style.display = 'block'; // affiche la diapositive active
-        slides[currentSlide].classList.add('active');
+    // JavaScript
+    function openModal(element) {
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        var projectLink = document.getElementById("projectLink");
+    
+        modal.style.display = "block";
+        modalImg.src = element.dataset.modalSrc;
+        
+        
+    
+        var span = document.getElementsByClassName("close")[0];
+        span.onclick = function() { 
+            modal.style.display = "none";
+        }
     }
-
-    document.getElementById('next').addEventListener('click', function(event) {
-        event.preventDefault();
-        currentSlide = (currentSlide + 1) % slides.length;
-        updateSlides();
-    });
-
-    document.getElementById('prev').addEventListener('click', function(event) {
-        event.preventDefault();
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-        updateSlides();
-    });
-
-    updateSlides(); // assurez-vous d'appeler cette fonction au chargement de la page
 </script>
-
+<div id="outils"></div>
 <div id="outils"> 
     <h2 id="projetstitle"> Mes outils 💻</h2>
     <div class="traitdeco"></div>
@@ -215,19 +222,30 @@
 
 
 </div>
-
-
+<div id="contact"></div>
+    <div class="boxcon">
+        <p><a href="" id="contact"> <strong>Contactez moi</strong></a></p>
+        <p><a href="" id="contact"><f>📞</f> +33 6 38 46 65 36</a></p>
+        <p><a href="mailto:mathieu.vallejopro@gmail.com" id="contact"><f>✉️</f> mathieu.vallejopro@gmail.com</a></p>
+        <p><a href="#" id="contact"><f>@</f> <a href="#" id="instagram">mathieu_vallejo</a></p>
+    </div>
     <div class="endtrait"></div>
 
     <footer>
         <container class="footer">
-            <p> 2023 © Vallejo Mathieu</p>
-            <p><i class="fa-brands fa-linkedin"></i> <a href="#" id="linkedin">Mathieu Vallejo</a></p>
-            <p><i class="fa-brands fa-square-instagram"></i> <a href="#" id="instagram">@mathieu_vallejo</a></p>
+            <p> 2023 - 2024 © Vallejo Mathieu</p>
+            
         </container>
     </footer>
 
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 800, // Vitesse de défilement en millisecondes
+        offset: 0, // Distance en pixels à décaler le défilement
+    });
+</script>
 
 </body>
 
